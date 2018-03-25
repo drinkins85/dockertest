@@ -11,6 +11,7 @@ COPY package*.json ./
 
 RUN npm install
 
+ENV PORT=3000
 
 # If you are building your code for production
 # RUN npm install --only=production
@@ -18,6 +19,6 @@ RUN npm install
 # Bundle app source
 COPY . .
 
-EXPOSE 3000
+EXPOSE $PORT
 
 CMD [ "npm", "start" ]
