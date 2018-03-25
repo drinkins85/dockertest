@@ -11,6 +11,8 @@ deploy:
   provider: heroku
   api_key:
     secure: zPcy4Q6P0+Lz77Tz7Ic1M8seyPAJTYWSNuVxyBHZ7pN8vSpRYuKWmMoaHk9WoyxymkvOZYe9hGSJ0UWXQbm/qnygbd/qouW2mw6l/Tl0vo9d5+wtt3c7Zig502urhmGhpASxSytH5P3+zkP4nZmdIGOE4bVdddpA0mDbCFbI8DMhHKcEaQd2mNIGtg0H7DUL8TD6SU1KzSa9QTKOOEbbORzm3+uD6AHj0Io7xd8Zthofoe2ARJGnwVDjqrhh/oz54uEw6dB7Xx4RHfmR4n7xdswUzz3cpN3b16ljiJBAYLddMgGrgF1nSDWBqGkIGtpmhq9hhUWy80lZDtdrKGm4DnoZxo2/8Yymm9LMPJ5NnWkrst8dUldrIHR1suAB88AMVU7CSwqokfjc5mxZ7t9yt6sxpsZcMLeRPHq6vHaQYo87QdNJi4olPc4/CIdz025rfbnddEwIxs6lltLFRDXr8zyJXdO1W4Z6DhbAh99Ajp3mCug7nYXmI5t2jn3m3o+hOMMyNZMtOqVzHWblazEWm8n9vF+Rrhssew7AZ+RiZZEHsnD5qluiTD/wrH/HyyKjTesB0/w1di0UEXGAMIlNf5f31SEV2+9kxgvuqeNv4hlFQG6Se+9T+HH9FUhLcGzFfSkrNRBoSl6YuE1ci7o3BPdpNdnLWrPeWfXZS63P744=
-  app: docker-test-shri
+  app:
+    master: docker-test-shri
+    production: docker-test-shri-prod
   on:
     repo: drinkins85/dockertest
