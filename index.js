@@ -8,7 +8,7 @@ const host = '0.0.0.0';
 app.use(express.static(`${__dirname}/public`));
 
 app.get('/', (req, res) => {
-  res.send('Hello, Docker');
+  res.send('Hello, Docker 11');
 });
 
 app.get('/git', (req, res) => {
