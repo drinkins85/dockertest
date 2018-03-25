@@ -5,7 +5,7 @@ WORKDIR /usr/src/app
 RUN apt-get update
 
 RUN apt-get install -y git
-RUN git clone https://github.com/drinkins85/node-git.git newrepo
+RUN git clone https://github.com/drinkins85/node-git.git newrepo2
 
 COPY package*.json ./
 
