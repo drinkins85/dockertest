@@ -18,6 +18,6 @@ RUN npm install
 # Bundle app source
 COPY . .
 
-EXPOSE ${PORT}
+#EXPOSE ${PORT}
 
 CMD [ "npm", "start" ]
