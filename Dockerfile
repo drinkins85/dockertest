@@ -1,6 +1,6 @@
 FROM node:carbon
 
-WORKDIR .
+WORKDIR /usr/src/app
 
 RUN apt-get update
 
