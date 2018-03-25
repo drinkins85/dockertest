@@ -28,7 +28,7 @@ app.get('/git', (req, res) => {
 });
 
 app.get('/gitcwd', (req, res) => {
-  const cwd = req.query.cwd;
+  const { cwd } = req.query.cwd;
   const git = childProcess.spawn('git', ['status'], { cwd });
   // const git = childProcess.spawn('ls');
   const out = [];
