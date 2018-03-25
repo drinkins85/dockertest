@@ -19,6 +19,6 @@ ENV PORT=3000
 # Bundle app source
 COPY . .
 
-EXPOSE $PORT
+EXPOSE ${PORT}
 
 CMD [ "npm", "start" ]
